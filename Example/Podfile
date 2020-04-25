@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HandySpec_Example' do
+  pod 'HandySpec', :path => '../'
+
+  target 'HandySpec_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
