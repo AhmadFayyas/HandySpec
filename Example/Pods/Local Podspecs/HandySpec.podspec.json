@@ -1,0 +1,22 @@
+{
+  "name": "HandySpec",
+  "version": "0.1.0",
+  "summary": "A short description of HandySpec.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ahmad Fayyas/HandySpec",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ahmad Fayyas": "ahmadf91@programmer.net"
+  },
+  "source": {
+    "git": "https://github.com/Ahmad Fayyas/HandySpec.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HandySpec/Classes/**/*"
+}
