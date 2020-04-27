@@ -1,15 +1,13 @@
-# HandySpec
+![HandySpec](https://user-images.githubusercontent.com/15219320/80429290-69fff000-88f4-11ea-9107-59a8b0b34fb9.png)
 
-[![CI Status](https://img.shields.io/travis/AhmadFayyas/HandySpec.svg?style=flat)](https://travis-ci.org/AhmadFayyas/HandySpec)
-[![Version](https://img.shields.io/cocoapods/v/HandySpec.svg?style=flat)](https://cocoapods.org/pods/HandySpec)
-[![License](https://img.shields.io/cocoapods/l/HandySpec.svg?style=flat)](https://cocoapods.org/pods/HandySpec)
-[![Platform](https://img.shields.io/cocoapods/p/HandySpec.svg?style=flat)](https://cocoapods.org/pods/HandySpec)
+[//]: # [![CI Status](https://img.shields.io/travis/AhmadFayyas/HandySpec.svg?style=flat)](https://travis-ci.org/AhmadFayyas/HandySpec)
+[//]: # [![Version](https://img.shields.io/cocoapods/v/HandySpec.svg?style=flat)](https://cocoapods.org/pods/HandySpec)
+[//]: # [![License](https://img.shields.io/cocoapods/l/HandySpec.svg?style=flat)](https://cocoapods.org/pods/HandySpec)
+[//]: # [![Platform](https://img.shields.io/cocoapods/p/HandySpec.svg?style=flat)](https://cocoapods.org/pods/HandySpec)
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+To run the example project, clone the repo, open `HandySpec.xcworkspace` and run it.
 
 ## Installation
 
