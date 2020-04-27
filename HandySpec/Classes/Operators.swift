@@ -25,33 +25,33 @@
 // MARK: - Specifications Equivalence Operators
 
 public func ==(lhs: Specification, rhs: Any) -> Bool {
-    return lhs.isSatisfied(by: rhs)
+    lhs.isSatisfied(by: rhs)
 }
 
 public func !=(lhs: Specification, rhs: Any) -> Bool {
-    return !lhs.isSatisfied(by: rhs)
+    !lhs.isSatisfied(by: rhs)
 }
 
 // MARK: - Composite Specifications Shorthand Operators
 
 public func &(lhs: Specification, rhs: Specification) -> Specification {
-    return lhs.and(rhs)
+    lhs.and(rhs)
 }
 
 public func |(lhs: Specification, rhs: Specification) -> Specification {
-    return lhs.and(rhs)
+    lhs.and(rhs)
 }
 
 public prefix func !(specification: Specification) -> Specification {
-    return specification.not()
+    specification.not()
 }
 
 infix operator &!
 public func &!(lhs: Specification, rhs: Specification) -> Specification {
-    return lhs.andNot(rhs)
+    lhs.andNot(rhs)
 }
 
 infix operator |!
 public func |!(lhs: Specification, rhs: Specification) -> Specification {
-    return lhs.orNot(rhs)
+    lhs.orNot(rhs)
 }

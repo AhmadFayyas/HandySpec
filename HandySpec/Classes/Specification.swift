@@ -30,23 +30,23 @@ public protocol Specification {
 
 extension Specification {
     public func and(_ other: Specification) -> Specification {
-        return AndSpecification(leftCondition: self, rightCondition: other)
+        AndSpecification(leftCondition: self, rightCondition: other)
     }
     
     public func or(_ other: Specification) -> Specification {
-        return OrSpecification(leftCondition: self, rightCondition: other)
+        OrSpecification(leftCondition: self, rightCondition: other)
     }
     
     public func not() -> Specification {
-        return NotSpecification(condition: self)
+        NotSpecification(condition: self)
     }
     
     public func andNot(_ other: Specification) -> Specification {
-        return AndNotSpecification(leftCondition: self, rightCondition: other)
+        AndNotSpecification(leftCondition: self, rightCondition: other)
     }
     
     public func orNot(_ other: Specification) -> Specification {
-        return OrNotSpecification(leftCondition: self, rightCondition: other)
+        OrNotSpecification(leftCondition: self, rightCondition: other)
     }
 }
 
@@ -62,7 +62,7 @@ private struct AndSpecification: InfixSpecification {
     let rightCondition: Specification
     
     func isSatisfied(by candidate: Any) -> Bool {
-        return leftCondition.isSatisfied(by: candidate) && rightCondition.isSatisfied(by: candidate)
+        leftCondition.isSatisfied(by: candidate) && rightCondition.isSatisfied(by: candidate)
     }
 }
 
@@ -71,8 +71,7 @@ private struct OrSpecification: InfixSpecification {
     let rightCondition: Specification
     
     func isSatisfied(by candidate: Any) -> Bool {
-        return leftCondition.isSatisfied(by: candidate) ||
-            rightCondition.isSatisfied(by: candidate)
+        leftCondition.isSatisfied(by: candidate) || rightCondition.isSatisfied(by: candidate)
     }
 }
 
@@ -80,7 +79,7 @@ private struct NotSpecification: Specification {
     let condition: Specification
     
     func isSatisfied(by candidate: Any) -> Bool {
-        return !condition.isSatisfied(by: candidate)
+        !condition.isSatisfied(by: candidate)
     }
 }
 
@@ -89,7 +88,7 @@ private struct AndNotSpecification: InfixSpecification {
     let rightCondition: Specification
     
     func isSatisfied(by candidate: Any) -> Bool {
-        return leftCondition.isSatisfied(by: candidate) && !rightCondition.isSatisfied(by: candidate)
+        leftCondition.isSatisfied(by: candidate) && !rightCondition.isSatisfied(by: candidate)
     }
 }
 
@@ -98,6 +97,6 @@ private struct OrNotSpecification: InfixSpecification {
     let rightCondition: Specification
     
     func isSatisfied(by candidate: Any) -> Bool {
-        return leftCondition.isSatisfied(by: candidate) || !rightCondition.isSatisfied(by: candidate)
+        leftCondition.isSatisfied(by: candidate) || !rightCondition.isSatisfied(by: candidate)
     }
 }
