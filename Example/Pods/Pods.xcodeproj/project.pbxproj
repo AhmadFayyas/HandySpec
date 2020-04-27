@@ -12,10 +12,10 @@
 		3C24A2DCA78E4553AE5CC581938C4359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5A477262B067AE893591B96A76E7C3BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8EF800ECB60C2087C14F737229C91A21 /* Pods-HandySpec_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6419FABE3CA547F5F009EAC3873CC1C7 /* Pods-HandySpec_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0EF69A9245466190077ABC0 /* SpecificationDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EF69A5245466190077ABC0 /* SpecificationDescriptor.swift */; };
-		A0EF69AA245466190077ABC0 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EF69A6245466190077ABC0 /* Operators.swift */; };
-		A0EF69AB245466190077ABC0 /* SpecificationValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EF69A7245466190077ABC0 /* SpecificationValidator.swift */; };
-		A0EF69AC245466190077ABC0 /* Specification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EF69A8245466190077ABC0 /* Specification.swift */; };
+		A0BBA21B245789780062148B /* SpecificationDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BBA217245789780062148B /* SpecificationDescriptor.swift */; };
+		A0BBA21C245789780062148B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BBA218245789780062148B /* Operators.swift */; };
+		A0BBA21D245789780062148B /* Specification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BBA219245789780062148B /* Specification.swift */; };
+		A0BBA21E245789780062148B /* SpecificationValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BBA21A245789780062148B /* SpecificationValidator.swift */; };
 		A12E1EA567B5C09D3BC333FE8A36DC1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AFF8605B797274866BCAECE434CE2792 /* Pods-HandySpec_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1371FC5F7C6A5DBC61DE119B6E21FEC3 /* Pods-HandySpec_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC8EF191E62DE5FB12A2D56694F96A74 /* HandySpec-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 992E0FD642694C54447D52242D8874BC /* HandySpec-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -66,10 +66,10 @@
 		98C14E804EB80E406FCE6390BB0D0E18 /* Pods-HandySpec_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HandySpec_Example-Info.plist"; sourceTree = "<group>"; };
 		992E0FD642694C54447D52242D8874BC /* HandySpec-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandySpec-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0EF69A5245466190077ABC0 /* SpecificationDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificationDescriptor.swift; sourceTree = "<group>"; };
-		A0EF69A6245466190077ABC0 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
-		A0EF69A7245466190077ABC0 /* SpecificationValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificationValidator.swift; sourceTree = "<group>"; };
-		A0EF69A8245466190077ABC0 /* Specification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specification.swift; sourceTree = "<group>"; };
+		A0BBA217245789780062148B /* SpecificationDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecificationDescriptor.swift; path = HandySpec/Classes/SpecificationDescriptor.swift; sourceTree = "<group>"; };
+		A0BBA218245789780062148B /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = HandySpec/Classes/Operators.swift; sourceTree = "<group>"; };
+		A0BBA219245789780062148B /* Specification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Specification.swift; path = HandySpec/Classes/Specification.swift; sourceTree = "<group>"; };
+		A0BBA21A245789780062148B /* SpecificationValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecificationValidator.swift; path = HandySpec/Classes/SpecificationValidator.swift; sourceTree = "<group>"; };
 		B31533D36BF8F596B17F03A7C9ED7D50 /* HandySpec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandySpec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65E863A6826976FF57F7B8C92607DC5 /* HandySpec-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HandySpec-dummy.m"; sourceTree = "<group>"; };
 		CC6958814A6BC8DE290EFDF267A7885C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -117,7 +117,10 @@
 		35C9EAC754B6967C06BE452994BEBF62 /* HandySpec */ = {
 			isa = PBXGroup;
 			children = (
-				A0EF69A4245465CE0077ABC0 /* Source */,
+				A0BBA218245789780062148B /* Operators.swift */,
+				A0BBA219245789780062148B /* Specification.swift */,
+				A0BBA217245789780062148B /* SpecificationDescriptor.swift */,
+				A0BBA21A245789780062148B /* SpecificationValidator.swift */,
 				90A3D1217C4317ED6AE4FD7829140D78 /* Pod */,
 				698F617BE9535E4F748DC7D18D4B132E /* Support Files */,
 			);
@@ -158,17 +161,6 @@
 				CC6958814A6BC8DE290EFDF267A7885C /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		A0EF69A4245465CE0077ABC0 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				A0EF69A6245466190077ABC0 /* Operators.swift */,
-				A0EF69A8245466190077ABC0 /* Specification.swift */,
-				A0EF69A5245466190077ABC0 /* SpecificationDescriptor.swift */,
-				A0EF69A7245466190077ABC0 /* SpecificationValidator.swift */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 		A9DF92DAD0F597AA81B0134070D60088 /* Pods-HandySpec_Tests */ = {
@@ -397,11 +389,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0EF69A9245466190077ABC0 /* SpecificationDescriptor.swift in Sources */,
-				A0EF69AC245466190077ABC0 /* Specification.swift in Sources */,
+				A0BBA21E245789780062148B /* SpecificationValidator.swift in Sources */,
+				A0BBA21B245789780062148B /* SpecificationDescriptor.swift in Sources */,
 				34B45D840B4C6221517C4DE988636797 /* HandySpec-dummy.m in Sources */,
-				A0EF69AB245466190077ABC0 /* SpecificationValidator.swift in Sources */,
-				A0EF69AA245466190077ABC0 /* Operators.swift in Sources */,
+				A0BBA21C245789780062148B /* Operators.swift in Sources */,
+				A0BBA21D245789780062148B /* Specification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
