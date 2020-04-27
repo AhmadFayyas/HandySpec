@@ -2,14 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'HandySpec'
   s.version          = '1.0.0'
   s.summary          = 'A library for applying spceification pattern.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  #s.description      = <<-DESC
+  s.description      = 'This library provides the specification design pattern main classes as well as some of the helper in order to even make the pattern to be more useful and more practical.'
 
   s.homepage         = 'https://github.com/AhmadFayyas/HandySpec'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -18,10 +11,13 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/AhmadFayyas/HandySpec.git', :tag => s.version.to_s }
   s.swift_versions  = '5.0'
   # s.social_media_url = ''
+  
+  s.osx.deployment_target = '10.14'
+  s.ios.deployment_target = '12.0'
+  s.tvos.deployment_target = '10.0'
+  s.watchos.deployment_target = '2.0'
 
-  s.ios.deployment_target = '11.0'
-
-  s.source_files = 'Source/**/*'
+  s.source_files = 'HandySpec/Classes/**/*'
   
   # s.resource_bundles = {
   #   'HandySpec' => ['HandySpec/Assets/*.png']
