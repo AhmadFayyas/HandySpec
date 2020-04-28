@@ -7,7 +7,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/HandySpec.svg?style=flat)](https://cocoapods.org/pods/HandySpec)
 -->
 
-**HandySpec** is a library for applying [specification deisgn pattern](https://en.wikipedia.org/wiki/Specification_pattern) for your porject written in Swift. Furthermore, it contains helpers to validate the specification in order to make it more useful and more expressive.
+**HandySpec** is a lightweight library for applying [specification deisgn pattern](https://en.wikipedia.org/wiki/Specification_pattern) for your porject written in Swift. Furthermore, it contains helpers to validate the specification in order to make it more useful and more expressive.
 
 - [Features](#features)
 - [Running the Example](#running-the-example)
@@ -17,19 +17,13 @@
 
 ## Features
 
-- [x] Chainable Request / Response Methods
-- [x] URL / JSON Parameter Encoding
-- [x] Upload File / Data / Stream / MultipartFormData
-- [x] Download File using Request or Resume Data
-- [x] Authentication with URLCredential
-- [x] HTTP Response Validation
-- [x] Upload and Download Progress Closures with Progress
-- [x] cURL Command Output
-- [x] Dynamically Adapt and Retry Requests
-- [x] TLS Certificate and Public Key Pinning
-- [x] Network Reachability
-- [x] Comprehensive Unit and Integration Test Coverage
-- [x] [Complete Documentation](https://alamofire.github.io/Alamofire)
+- [x] Supporting all of the main chaining specifications.
+- [x] Providing Custom Operators as shorthands for the chaining specifications.
+<!--- - [x] Containing Built-in Custom Useful Specifications, such as: Regex and Count. -->
+- [x] Supporting creating custom specifications.
+
+<!--- - [x] Unit Tested. -->
+<!--- - [x] Documentation. -->
 
 ## Running the Example
 
